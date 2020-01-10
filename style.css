@@ -1,0 +1,54 @@
+.navtop-heading{
+    color:#642B1F;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./images/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+.bg-overlay2 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) #642B1F ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 350px;
+    padding-top: 50px;
+}
+.title-text {
+    position: relative;
+    margin-bottom: 68px;
+}
+.title-text:before {
+    position: absolute;
+    content: '';
+    background:#642B1F;
+    height: 5px;
+    width: 50px;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -18px;
+}
+.title-text2 {
+    position: relative;
+    margin-bottom: 68px;
+}
+.title-text2:before {
+    position: absolute;
+    content: '';
+    background:#fff;
+    height: 5px;
+    width: 50px;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -18px;
+}
